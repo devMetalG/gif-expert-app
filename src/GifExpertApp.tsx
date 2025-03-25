@@ -10,7 +10,6 @@ export const GifExpertApp:React.FC = () => {
     if(categories.includes(category)) return;
     setCategories([category, ...categories]);
   }
-  
 
   return (
     <>
